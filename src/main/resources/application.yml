@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/demodb
+    username: postgres
+    password: password
+    hikari:
+      maximum-pool-size: 30
+  flyway:
+    enabled: true
